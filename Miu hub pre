@@ -1,5 +1,5 @@
 --[[
-    SPYMM v8.3 - Obsidian UI
+    Miu Hub - Obsidian UI
     Survive the Apocalypse
 ]]
 
@@ -45,7 +45,7 @@ Library.ForceCheckbox = false
 Library.ShowToggleFrameInKeybinds = true
 
 local Window = Library:CreateWindow({
-    Title = "SPYMM v8.3",
+    Title = "Miu Hub",
     Footer = "Survive the Apocalypse",
     NotifySide = "Right",
     ShowCustomCursor = true,
@@ -3523,8 +3523,8 @@ SaveManager:SetLibrary(Library)
 SaveManager:IgnoreThemeSettings()
 SaveManager:SetIgnoreIndexes({ "MenuKeybind" })
 
-ThemeManager:SetFolder("SPYMM")
-SaveManager:SetFolder("SPYMM/survive-the-apocalypse")
+ThemeManager:SetFolder("Miu Hub")
+SaveManager:SetFolder("Miu Hub/survive-the-apocalypse")
 
 SaveManager:BuildConfigSection(Tabs["UI Settings"])
 ThemeManager:ApplyToTab(Tabs["UI Settings"])
@@ -3533,7 +3533,7 @@ SaveManager:LoadAutoloadConfig()
 -- ============================================
 -- INIT NOTIFICATION
 -- ============================================
-Library:Notify({ Title = "SPYMM v8.3", Description = "Loaded! Gun|Melee|Medical|Armor|Food|Resources\nRight Shift = toggle menu.", Time = 5 })
+Library:Notify({ Title = "Miu Hub", Description = "Loaded! Gun|Melee|Medical|Armor|Food|Resources\nRight Shift = toggle menu.", Time = 5 })
 
 local espCounts = { Gun="Red", Melee="Orange", Medical="Green", Armor="Blue", Food="Lime", Resource="Silver" }
 print("SPYMM v8.3 loaded | " .. #itemNames .. " items tracked | Right Shift = menu")
