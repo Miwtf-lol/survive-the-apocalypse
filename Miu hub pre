@@ -46,7 +46,7 @@ Library.ShowToggleFrameInKeybinds = true
 
 local Window = Library:CreateWindow({
     Title = "Miu Hub",
-    Footer = "Survive the Apocalypse",
+    Footer = "MiuHub3️⃣6️⃣7️⃣💗",
     NotifySide = "Right",
     ShowCustomCursor = true,
 })
