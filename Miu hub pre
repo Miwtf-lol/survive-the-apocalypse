@@ -46,7 +46,7 @@ Library.ShowToggleFrameInKeybinds = true
 
 local Window = Library:CreateWindow({
     Title = "Miu Hub",
-    Footer = "MiuHub3️⃣6️⃣7️⃣💗",
+    Footer = "MiuHub3️⃣6️⃣7️⃣💗 Discord: https://discord.gg/n3Qa4TRGz",
     Icon = 135283977825181,
     NotifySide = "Right",
     ShowCustomCursor = true,
